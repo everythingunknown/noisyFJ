@@ -1,0 +1,152 @@
+forests = [1000, 2000, 4000]
+selection_forests = 2000
+query_tolerance = 1e-8
+reference_tolerance = 1e-12
+selected_sources = 32
+history = 3
+workers = 5
+noise_trials = 500
+
+[[datasets]]
+id = "college-msg"
+name = "CollegeMsg"
+n = 1899
+m = 20296
+url = "https://snap.stanford.edu/data/CollegeMsg.txt.gz"
+format = "text"
+catalog = false
+dense = true
+records = 59835
+sha256 = "50ae2d98ed3bad9ddb18dbd495a89e5e10cfb8f7e86932827db29fc41b41f9fa"
+
+[[datasets]]
+id = "bitcoin-alpha"
+name = "Bitcoin-Alpha"
+n = 3783
+m = 22650
+url = "https://snap.stanford.edu/data/soc-sign-bitcoinalpha.csv.gz"
+format = "ratings"
+catalog = false
+dense = true
+records = 24186
+sha256 = "3a178611b9c2f39c9a0dc75936f28557317f1733319b49da4838232b3757cd76"
+
+[[datasets]]
+id = "bitcoin-otc"
+name = "Bitcoin-OTC"
+n = 5881
+m = 32029
+url = "https://snap.stanford.edu/data/soc-sign-bitcoinotc.csv.gz"
+format = "ratings"
+catalog = false
+dense = true
+records = 35592
+sha256 = "6424ac981dad3a019f697fc1b9fcd85c19d8d9f039797758e9ffb6fea100c373"
+
+[[datasets]]
+id = "wiki-vote"
+name = "Wiki-Vote"
+n = 7115
+m = 103689
+url = "https://snap.stanford.edu/data/wiki-Vote.txt.gz"
+format = "text"
+catalog = false
+dense = true
+records = 103689
+sha256 = "7d3e53626e14b8b09fb3b396bece9d481ad606bd64ceab066349ff57d4ada7fc"
+
+[[datasets]]
+id = "facebook-wall"
+name = "Facebook-Wall"
+n = 46952
+m = 264004
+url = "https://networks.skewed.de/net/facebook_wall/files/facebook_wall.csv.zip"
+format = "csv"
+catalog = true
+dense = false
+records = 876993
+sha256 = "21bde83d0b364b402a77f779f9b1f6589057f826fd1bfd7b53782917d85b03e2"
+
+[[datasets]]
+id = "slashdot"
+name = "Slashdot"
+n = 82168
+m = 870161
+url = "https://snap.stanford.edu/data/soc-Slashdot0902.txt.gz"
+format = "text"
+catalog = false
+dense = false
+records = 948464
+sha256 = "3224079a19bc363c7f68390375dcc3c7b1866618bd528c1ade6dfb088306ddec"
+
+[[datasets]]
+id = "academia-edu"
+name = "Academia.edu"
+n = 200169
+m = 1397621
+url = "https://networks.skewed.de/net/academia_edu/files/academia_edu.csv.zip"
+format = "csv"
+catalog = true
+dense = false
+records = 1398063
+sha256 = "b8b6ead754acf075ef7b441fb932d2761b3fd1a4905bb49e61221e73ea55f135"
+
+[[datasets]]
+id = "digg"
+name = "Digg"
+n = 279630
+m = 1731653
+url = "https://nrvis.com/download/data/dynamic/digg-friends.zip"
+format = "edges"
+catalog = false
+dense = false
+records = 1731653
+sha256 = "c803aecc3f5365daa785a1475f96e5ec634207e382fae2fac9020fe76e8286c5"
+
+[[datasets]]
+id = "wiki-talk-de"
+name = "WikiTalk-DE"
+n = 519403
+m = 1653669
+url = "https://networks.skewed.de/net/wiki_talk/files/de.csv.zip"
+format = "csv"
+catalog = true
+dense = false
+records = 6729794
+sha256 = "08705a52f27ad5343cd7f1150ca24b2811e3509e13b43ebb257b8f459519bae1"
+
+[[datasets]]
+id = "pokec"
+name = "Pokec"
+n = 1632803
+m = 30622564
+url = "https://snap.stanford.edu/data/soc-pokec-relationships.txt.gz"
+format = "text"
+catalog = false
+dense = false
+records = 30622564
+sha256 = "1a23e0ec8a4e497752125f6b3f01696fea7fcdb696fa61d1e822faf4d0d69b14"
+
+[[datasets]]
+id = "wiki-talk"
+name = "Wiki-Talk"
+n = 2394385
+m = 5021410
+url = "https://snap.stanford.edu/data/wiki-Talk.txt.gz"
+format = "text"
+catalog = false
+dense = false
+records = 5021410
+sha256 = "0f3fd7bb8435ad0d46bd3cd06d2fb947c72d298a9310c8ce82b4d29ef973fb9f"
+
+[[datasets]]
+id = "twitter-sample"
+name = "Twitter-Sample"
+n = 5384162
+m = 16011444
+url = "https://networks.skewed.de/net/twitter_sample/files/twitter_sample.csv.zip"
+format = "csv"
+catalog = true
+dense = false
+records = 16011444
+sha256 = "589e86a6eb7efe030be4184ab2e7ca2fc00707b8c814353aa2f9e5f5fd361e6a"

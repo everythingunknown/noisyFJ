@@ -1,0 +1,33 @@
+# Retained SOR parameters and measured parameter-selection costs (seconds).
+
+[college-msg]
+omega = 1.4
+retained_tuning_seconds = 0.043415919
+
+[bitcoin-alpha]
+omega = 1.4
+retained_tuning_seconds = 0.062284249999999985
+
+[bitcoin-otc]
+omega = 1.35
+retained_tuning_seconds = 0.11143442300000002
+
+[wiki-vote]
+omega = 1.15
+retained_tuning_seconds = 0.15872154
+
+[wiki-talk-de]
+omega = 1.0
+retained_tuning_seconds = 3.8424017930000005
+
+[pokec]
+omega = 1.35
+retained_tuning_seconds = 752.437516459
+
+[wiki-talk]
+omega = 1.0
+retained_tuning_seconds = 6.185704083000001
+
+[twitter-sample]
+omega = 1.0
+retained_tuning_seconds = 14.746950541
